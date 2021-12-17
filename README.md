@@ -5,8 +5,8 @@ Code used in Troullinou, Eirini, et al. "Artificial neural networks in action fo
 The user can choose among 1D CNN, RNN, or LSTM models.
 
 Inputs: 
-- Data: matrix `DxN`, where D is the dimension (i.e., time-series) and N the number cells. Ca imaging data, either raw signal or a DF/F transformation.
-- labels: vector `Nx1`, where N is the number of cells. This vector contains integers from 0 to K, where K denotes the number of classes.
+- `data`: matrix `DxN`, where D is the dimension (i.e., time-series) and N the number cells. Ca imaging data, either raw signal or a DF/F transformation.
+- `labels`: vector `Nx1`, where N is the number of cells. This vector contains integers from 0 to K, where K denotes the number of classes.
 
 ## Train the model
 ```python
