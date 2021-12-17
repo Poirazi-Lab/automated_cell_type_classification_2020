@@ -1,3 +1,10 @@
 # Automated Cell type classification
 
 Code used in Troullinou, Eirini, et al. "Artificial neural networks in action for an automated cell-type classification of biological neural networks." IEEE Transactions on Emerging Topics in Computational Intelligence (2020).
+
+The user can choose among 1D CNN, RNN, or LSTM models.
+
+Inputs: 
+- Data: matrix `DxN`, where D is the dimension (i.e., time-series) and N the number cells. Ca imaging data, either raw signal or a DF/F transformation.
+- labels: vector `Nx1`, where N is the number of cells. This vector contains integers from 0 to K, where K denotes the number of classes.
+
